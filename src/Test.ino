@@ -18,10 +18,8 @@ void loop() {
   // The core of your code will likely live here.
   digitalWrite(led1, HIGH);
   digitalWrite(led2, HIGH);
-
   // We'll leave it on for 1 second...
   delay(1000);
-
   // Then we'll turn it off...
   digitalWrite(led1, LOW);
   digitalWrite(led2, LOW);
